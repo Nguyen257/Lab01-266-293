@@ -1,0 +1,25 @@
+{
+  "name": "server.js",
+  "version": "1.0.0",
+  "description": "Lab01",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nguyen257/Lab01-266-293.git"
+  },
+  "keywords": [
+    "Lab01"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nguyen257/Lab01-266-293/issues"
+  },
+  "homepage": "https://github.com/Nguyen257/Lab01-266-293#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
