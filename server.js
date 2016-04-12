@@ -6,6 +6,7 @@ app.listen(3000, function () {
 })
 
 var ect = require('ect');
+var vary= require('vary');
 var ectRenderer = ect({ watch: true, root: __dirname + '/views', ext : '.ect' });
 app.set('view engine', 'ect');
 app.engine('ect', ectRenderer.render);
